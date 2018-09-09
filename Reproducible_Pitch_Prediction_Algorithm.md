@@ -49,6 +49,8 @@ After researching on the world wide web, it is observed the predictive model sui
 - The accuarcy of the prediction will not be ideally 100 percent, but still the algorithm tries efficiently to identify the suitable next word for the input provided by the user. 
 - To provide the desired input select any one of the three text files *en_US.blogs.txt*, *en_US.news.txt*, *en_US.twitter.txt* from the [HC Corpora Dataset]("https://d396qusza40orc.cloudfront.net/dsscapstone/dataset/Coursera-SwiftKey.zip"). Post provision of the input from the user the algorithm predicts the next suitable word, user can put five phrases drawn from Twitter or news articles in English leaving out the last word, the application will give a prediction for each entry. 
 - For instance user could try input as "*the first time i saw the movie i was a little more than a decade ago*"
+- The application is available at [shinyapp]("https://ravimohan19.shinyapps.io/ShinyApp-Pred/")
+- The relevant R scripts and the data files are avaiable at [Algorithm]("https://github.com/RaviMohan19/PredictionAlgorithm")
   
 
   
