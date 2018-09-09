@@ -1,0 +1,48 @@
+---
+title: "AboutApp"
+author: "Ravi M.B"
+date: "September 8, 2018"
+output: html_document
+---
+
+
+## About Prediction Algorithm App
+
+This application is developed as part of the requirement for the Coursera Data Science Capstone Course. The goal of the project is to build a predictive text model combined with a shiny app UI that will predict the next word as the user types a sentence similar to the way most smart phone keyboards are implemented today using the technology of Swiftkey.
+
+## Data Download
+
+[HC Corpora Dataset]("https://d396qusza40orc.cloudfront.net/dsscapstone/dataset/Coursera-SwiftKey.zip") is used for the necessary analysis and further to build the app.
+
+## Instructions
+
+The prediction algortithm is based on the concepts of Natural Language Processing. The accuarcy of the prediction will not be ideally 100 percent, but still the algorithm tries efficiently to identify the suitable next word for the input provided by the user. To provide the desired input select any one of the three text files *en_US.blogs.txt*, *en_US.news.txt*, *en_US.twitter.txt* from the [HC Corpora Dataset]("https://d396qusza40orc.cloudfront.net/dsscapstone/dataset/Coursera-SwiftKey.zip"). Post provision of the input from the user the algorithm predicts the next suitable word, user can put five phrases drawn from Twitter or news articles in English leaving out the last word, the application will give a prediction for each entry. For instance user could try input as "*the first time i saw the movie i was a little more than a decade ago*"
+
+
+## Web Application
+
+Upon the initial load up of the application, "NULL" will be displayed at the Predicted Next Word textbox. User may then enter a partially complete sentence to begin the next word prediction.
+ 
+## Results
+
+Next word predicted is shown at the Predicted Next Word textbox.
+Information on the n-gram backoff algorithm used to predict is shown as indication.
+
+## Important Note
+
+Each Algorithm might be unique based on the application, in this prediction algorithm for ease of analysis all the text from the requisite folder  *en_US* of the [HC Corpora Dataset]("https://d396qusza40orc.cloudfront.net/dsscapstone/dataset/Coursera-SwiftKey.zip") is converted to lower case, and the punctuations are eliminated. Due to this the prediction might be slightly off from the actual text data.
+
+## References
+
+1. [ngram-model]("https://en.wikipedia.org/wiki/N-gram")
+2. [Shiny Articles]("https://shiny.rstudio.com/articles/css.html")
+3. [Shiny navbarPage]("https://shiny.rstudio.com/reference/shiny/latest/navbarPage.html")
+4. [Shiny navbarPage Example]("https://shiny.rstudio.com/gallery/navbar-example.html")
+5. [CRAN - NLP]("https://cran.r-project.org/web/views/NaturalLanguageProcessing.html")
+6. [NLP-Tutorial]("https://www.r-bloggers.com/natural-language-processing-tutorial/")
+7. [NLP-lmullen]("https://rpubs.com/lmullen/nlp-chapter")
+8. [NLP-Kaggle]("https://www.kaggle.com/shravan3273/natural-language-processing-with-r")
+9. [NLP-Wiki]("https://en.wikipedia.org/wiki/Natural_language_processing")
+10. [Katz-backoff model]("https://en.wikipedia.org/wiki/Katz%27s_back-off_model")
+
+
